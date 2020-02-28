@@ -1,13 +1,36 @@
 #include <iostream>
 using namespace std;
+
+int n1 = 0;
+int n2 = 0;
+int suma = 0;
+
+void registro (){
+    cin>>n1;
+return;
+}
+
+void ciclo (){
+    for (int i = 0; i < 10; i++)
+    {
+        registro();
+        if (n1 > n2)
+        {
+            n2 = n1;
+            suma = n2 + suma;
+        }
+        else
+        {
+            cout<<"La suma no se podrá hacer porque los números no están ordenados"<<endl;
+            return;
+        }        
+    }
+return;    
+}
+
 int main(){
-	int A;
-	int S;
-	int D;
-	cin>>A;
-	cin>>S;
-	cin>>D;
-	cout<<"están en orden"<<endl;
-	return 0;
- 
+    cout<<"Ingrese 10 números enteros"<<endl;
+    ciclo();
+    cout<<"La suma de sus números es: "<<suma<<endl;
+return 0;
 }

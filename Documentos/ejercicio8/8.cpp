@@ -21,7 +21,7 @@ cin>>A7;
 cin>>A8;
 cin>>A9;
 cin>>A10;
-cout<<"Sumar"<<A1<<"+"<<A2<<"+"<<A3<<"+"<<A4<<"+"<<A5<<"+"<<A6<<"+"<<A7<<"+"<<A8<<"+"<<A9<<"+"<<A10<<endl;
+cout<<"La Suma es:"<<(A1+A2+A3+A4+A5+A6+A7+A8+A9+A10)<<endl;
 	return 0;
 
 }

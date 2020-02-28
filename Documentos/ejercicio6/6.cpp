@@ -1,8 +1,14 @@
 #include <iostream>
+
 using namespace std;
 int main(){
-	int Z;
-	int X;
-cout<<"Los cuadrados : "<<X<<endl;
+	int a;
+	int s;
+
+for(a=1;a<=100;a++){
+	s=s+(a*a);
+}
+
+cout<<"La suma de los cuadrados es: "<<s<<endl;
 	return 0; 
 }

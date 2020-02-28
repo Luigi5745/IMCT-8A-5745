@@ -1,9 +1,13 @@
 #include <iostream>
 using namespace std;
 int main(){
-	int Z;
-	cin>>Z;
-cout<<"Diseñar un diagrama que imrpima los primeros "<<Z<<" numeros enteros"<<endl;
+	int x;
+for(int i=1;i<=100;i++){
+
+
+cout<<i<<endl;
+
+}
 	return 0;
 
 }

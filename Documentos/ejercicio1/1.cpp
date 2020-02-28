@@ -1,10 +1,21 @@
 #include <iostream>
 using namespace std;
 int main(){
-int A;
-int B;
-cout<<"La suma de los pares es: "<<A<<endl;
-cout<<"EL producto de los pares es: "<<B<<endl;
+int P=0;
+int Im=0;
+int I=0;
+for(int i=1; i<=200; i++){
+
+	if (i%2==0){
+	P+=i;
+	}
+	else{
+	I+=i;
+	}
+}
+
+cout<<"La suma de los pares es: "<<P<<endl;
+cout<<"La suma de los impares es: "<<Im<<endl;
 
 return 0;
 
